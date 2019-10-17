@@ -1,0 +1,181 @@
+body {
+	background-color: #292725;
+	margin: 0;
+	font-family: "Arial", "Times New Roman", "Comic sans ms";
+}
+
+#bloc_page {
+	width: 80%;
+	margin: auto;
+	background-color: white;
+}
+
+.utilisateur { 
+		margin-right: 50px;
+		 }
+
+ul li {
+	width: 20%;
+	margin-left: 60px;
+	flex-wrap: wrap;
+}
+
+#logo_gbaf {
+	width: 10%;
+	height: 10%;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	padding: 8px;
+	box-shadow: 6px 0px 6px black;
+}
+
+#presentation_gbaf {
+	padding: 0 25px 0 25px;
+}
+
+#presentation_gbaf+p {
+	text-align: center;
+}
+
+.presentation_partenaire {
+text-align: center;
+margin: 20px;
+padding: 2px;
+background-color: white;
+}
+
+.bloc_partenaires {
+		padding: 2px 0px 5px 15px;
+}
+
+.partenaires {
+	display: flex;
+	flex-wrap: wrap;	
+	width: 90%;
+	padding: 15px;
+	margin: 5px 0px 25px 20px;
+	box-shadow: 8px 3px 5px #197869;
+	border-radius: 10px 5px 10px 5px;
+}
+
+h1 {
+	color: #8C0016;
+	text-align: center;
+}
+
+h2 {
+	color: #8C0016; 
+}
+
+h3 {
+	font-size: 1.5em;
+	color: #008C76;
+	
+}
+
+h3+p {	
+	font-size: 1em;
+}
+
+.texte {
+	width: 40%;
+}
+
+/*logos des partenaires*/
+.logos {
+	width: 25%;
+	align-self: flex-start;	
+	margin: auto;
+	margin-left: 20px;
+}
+/*button lien page d'accueil*/
+.lire_la_suite {
+	position: relative;
+	align-self: flex-end;
+	margin-left: 200px;
+	background-color: #BE2A41;
+	border-radius: 5px 5px 5px 5px;
+	padding: 3px;
+	width: 10%;
+	font-size: 0.5em;
+	
+}
+
+/*couleur et décoration des liens*/
+a {
+	color: white;
+	text-decoration: none;
+
+}
+
+/*survol des liens*/
+a:hover {
+	color: #2ABEA7;
+
+}
+/*bas de page*/
+footer {
+	display: flex;
+	box-shadow: 6px 0px 6px black;
+	padding: 5px;
+}
+
+.pied_de_page {
+	margin: auto;
+	width: 20%;
+	text-align: center;
+	
+}
+
+/*page acteur*/
+.contenu_acteur {
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+}
+
+.contenu_acteur,h2 {
+margin: auto;
+}
+
+.logo_page_acteur {
+	width: 40%;
+	margin: auto;
+	padding: 20px;
+}
+
+.bloc_commentaires {
+		padding: 2px 0px 15px 15px;
+}
+
+.presentation_commentaires {
+	display: flex;
+	align-items: baseline;
+	justify-content: space-between;
+	width: 60%;
+	margin: auto;
+	padding: 10px;
+}
+
+.button_commentaire {
+	color: white;
+	background-color: #BE2A41;
+	flex-wrap: wrap;
+	width: 40%;
+	border-radius: 5px 5px 5px 5px;
+	}
+
+.commentaires {
+	width: 60%;
+	margin: auto;
+	box-shadow: 8px 3px 5px #197869;
+	border-radius: 10px 5px 10px 5px;
+	padding: 10px;
+}
+
+
+
+
